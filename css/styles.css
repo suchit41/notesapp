@@ -33,3 +33,9 @@ body{
 .navbar-dark{
     background-color: #512DAB;
 }
+.custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px #007bff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  .custom-checkbox .custom-control-label::before {
+    border-radius: 50%;
+  }
